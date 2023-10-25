@@ -12,8 +12,8 @@ const router = express.Router();
 
 // getDoctors
 
-router.get("/getAllDoctors", authMiddleware, getAllDoctorsController);
-router.get("/getAllUsers", authMiddleware, getAllUsers);
+router.get("/getAllDoctors",  getAllDoctorsController);
+router.get("/getAllUsers",  getAllUsers);
 
 // post change account status
 
